@@ -1,0 +1,10 @@
+<div style="text-align: center">
+  <form (submit)="loginUser($event)">
+    <div>
+      <input type="text" placeholder="Enter Username" [(ngModel)]='username' name="uname" required><br>
+      <input type="password" placeholder="Enter Password" [(ngModel)]='password' name="psw" required><br>
+  
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</div>
